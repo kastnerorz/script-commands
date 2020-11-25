@@ -73,6 +73,7 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 |  | [Column to Comma](conversions/column-to-comma.sh) | N/A | Raycast |
 | ⏱ | [Convert Epoch to Human-Readable Date](conversions/epoch-to-human-date.sh) | Convert epoch to human-readable date. | [Siyuan Zhang](https://github.com/kastnerorz) |
+| ⏱ | [Convert Human-Readable Date To Epoch](conversions/human-date-to-epoch.sh) | Convert human-readable date to timestamp epoch. | [Siyuan Zhang](https://github.com/kastnerorz) |
 | 🎨 | [Hex to RGB](conversions/hex-to-rgb.sh) | Convert HEX color values to RGB values. | [Caleb Stauffer](https://github.com/crstauf) |
 | 🎨 | [Hex to RGBA](conversions/hex-to-rgba.sh) | Convert HEX color values to RGBA values. | [Caleb Stauffer](https://github.com/crstauf) |
 
@@ -80,6 +81,7 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/bitcoin-logo.png?raw=true" width="20" height="20"> | [Bitcoin Price](dashboard/bitcoin-price-usd.sh) | Get current Bitcoin price from Coindesk. | [Tanguy Le Stradic](https://github.com/tanguyls) |
 | 🌦️ | [Current Weather](dashboard/current-weather.sh) | Get current weather report from wttr.in. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/dashboard/images/speedtest-logo.png?raw=true" width="20" height="20"> | [Speedtest](dashboard/speedtest.sh) | Test download and upload connection speed | [Caleb Stauffer](https://github.com/crstauf) |
 | 📈 | [System Activity](dashboard/system-activity.sh) | N/A | Raycast |
@@ -168,8 +170,10 @@ This repository contains sample commands and documentation to write your own one
 | ---- | ----- | ----------- | ------ |
 | 📂 | [Open Applications](navigation/open-applications.sh) | N/A | Raycast |
 | 🖥 | [Open Clipboard URL on Desktop](navigation/open-desktop-url-from-clipboard.swift) | N/A | Raycast |
-| 📟 | [Open Current Finder Directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open curren Finder directory in terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
-| 📟 | [Open Current Terminal Directory in Finder](navigation/open-finder-from-terminal.applescript) | Open curren terminal directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 📟 | [Open Current Finder Directory in Terminal](navigation/open-terminal-from-finder.applescript) | Open current Finder directory in Terminal | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/iterm-logo.png?raw=true" width="20" height="20"> | [Open Current Finder Directory in iTerm](navigation/open-iterm-from-finder.applescript) | Open current Finder directory in iTerm | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| 📟 | [Open Current Terminal Directory in Finder](navigation/open-finder-from-terminal.applescript) | Open curren Terminal directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/navigation/images/iterm-logo.png?raw=true" width="20" height="20"> | [Open Current iTerm Directory in Finder](navigation/open-finder-from-iterm.applescript) | Open current iTerm directory in Finder | [Kirill Gorbachyonok](https://github.com/japanese-goblinn) |
 | 📂 | [Open Desktop](navigation/open-desktop.sh) | N/A | Raycast |
 | 📂 | [Open Documents](navigation/open-documents.sh) | N/A | Raycast |
 | 📂 | [Open Downloads](navigation/open-downloads.sh) | N/A | Raycast |
@@ -188,6 +192,8 @@ This repository contains sample commands and documentation to write your own one
 | 🗣 | [Define Word](system/define-word.swift) | Define a word using the built-in dictionary/dicionaries. | [Jesse Claven](https://github.com/jesse-c) |
 | 📀 | [Eject All Disks](system/eject-all-disks.applescript) | N/A | Raycast |
 | 🗑 | [Empty Trash](system/empty-trash.applescript) | N/A | Raycast |
+| 📈 | [Largest CPU Process](system/largest-cpu-process.sh) | Report process with largest system CPU usage. | [Caleb Stauffer](https://github.com/crstauf) |
+| 📈 | [Largest RAM Process](system/largest-ram-process.sh) | Report process with largest system RAM usage. | [Caleb Stauffer](https://github.com/crstauf) |
 | 💁‍♂️ | [Open Last Download](system/open-last-download.swift) | N/A | Raycast |
 | 💥 | [Quit All Applications](system/quit-all-apps.swift) | N/A | Raycast |
 | 🖼️ | [Refresh Wallpaper](system/wallpaper-refresh.applescript) | Refresh the current display's wallpaper | [Caleb Stauffer](https://github.com/crstauf) |
@@ -205,6 +211,12 @@ This repository contains sample commands and documentation to write your own one
 
 | Icon | Title | Description | Author |
 | ---- | ----- | ----------- | ------ |
+| 📦 | [Bundlephobia cost](web-searches/bundlephobia.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| ❓ | [Caniuse.com search](web-searches/caniuse.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/giphy.png?raw=true" width="20" height="20"> | [Giphy search](web-searches/giphy.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| 📦 | [Open npm Package Repo](web-searches/repo.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/github-logo.png?raw=true" width="20" height="20"> | [Search GitHub](web-searches/search-github.sh) | Search GitHub. | [Caleb Stauffer](https://github.com/crstauf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/cloudflare-logo.png?raw=true" width="20" height="20"> | [Search cdnjs](web-searches/search-cdnjs.sh) | Search cdnjs.com for library. | [Caleb Stauffer](https://github.com/crstauf) |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/amazon.png?raw=true" width="20" height="20"> | [Search in Amazon](web-searches/amazon.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/duck-duck-go.png?raw=true" width="20" height="20"> | [Search in DuckDuckGo](web-searches/duck-duck-go.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/ecosia.png?raw=true" width="20" height="20"> | [Search in Ecosia](web-searches/ecosia.sh) | N/A | [Sasivarnan R](https://github.com/sasivarnan) |
@@ -213,6 +225,10 @@ This repository contains sample commands and documentation to write your own one
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/youtube.png?raw=true" width="20" height="20"> | [Search in YouTube](web-searches/youtube.sh) | N/A | Raycast |
 | <img src="https://grep.app/favicon.ico" width="20" height="20"> | [Search in grep.app](web-searches/grep-app-search.sh) | N/A | Raycast |
 | <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npmjs.png?raw=true" width="20" height="20"> | [Search npm Packages](web-searches/npmjs.sh) | N/A | Raycast |
+| 🔗 | [Unfurl URL](web-searches/unfurl.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| ⬅️ | [Wayback Machine search](web-searches/wayback-machine.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| 🐸 | [njt](web-searches/njt.sh) | N/A | [Zander Martineau](https://zander.wtf) |
+| <img src="https://raw.githubusercontent.com/raycast/script-commands/master/commands/web-searches/images/npms.png?raw=true" width="20" height="20"> | [npms](web-searches/npms.sh) | N/A | [Zander Martineau](https://zander.wtf) |
 
 ## Community
 
